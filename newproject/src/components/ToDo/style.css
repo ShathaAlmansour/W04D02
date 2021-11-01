@@ -1,0 +1,42 @@
+.header {
+  
+    text-align: center;
+}
+
+.todo{
+    width: 70%;
+    height: 600px;
+    border: 2rem solid black;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.todolistDiv{
+    
+    gap: 100px;
+     background-color: gray;
+     margin: 0.2rem auto;
+     padding: 5px;
+     border-radius: 10px;
+ 
+ }
+ 
+ .todoList{
+     width: 100%;
+    display: flex;
+    gap: 200px;
+    justify-content: space-around; 
+ background-color: gray; 
+ }
+ 
+.todoClose{
+     cursor: pointer;
+ }
+ 
+ .todoClose:hover{
+ 
+     color: red;
+ }
